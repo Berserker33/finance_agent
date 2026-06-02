@@ -1,13 +1,27 @@
-langchain==0.3.25
-langchain-core==0.3.59
-langchain-groq==0.2.5
-langchain-community==0.3.23
-langchain-tools==0.1.4
-python-dotenv
-yfinance
-pandas
-ta
-plotly
-flask
-gunicorn
-fpdf2
+flask==3.0.3
+gunicorn==21.2.0
+python-dotenv==1.0.1
+
+# LangChain stack — pinned together to avoid conflicts
+langchain==0.2.16
+langchain-core==0.2.38
+langchain-groq==0.1.9
+langchain-community==0.2.16
+langchain-text-splitters==0.2.4
+
+# LLM / AI
+groq==0.9.0
+
+# Data
+yfinance==0.2.43
+pandas==2.2.2
+numpy==1.26.4
+ta==0.11.0
+
+# Charts & PDF
+plotly==5.22.0
+fpdf2==2.7.9
+
+# Misc
+requests==2.32.3
+beautifulsoup4==4.12.3
