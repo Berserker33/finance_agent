@@ -3,6 +3,7 @@ PDF Report Exporter — generates a professional stock analysis PDF report.
 Uses fpdf2 with built-in Helvetica (Latin-1 safe).
 All Unicode special chars are sanitised before writing.
 """
+from __future__ import annotations
 import os
 from datetime import datetime
 
